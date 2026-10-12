@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Maksym Kavetskyi · CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#121210;--ink-2:#3a3a35;--ink-3:#7a7a72;--paper:#efede4;--line:#cfccbf;--accent:#1f6b3a}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#888}
+body{font-family:"Inter",system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;min-height:297mm;margin:0 auto;background:var(--paper);padding:12mm 15mm 12mm;position:relative}
+@media print{html,body{background:var(--paper)}.page{margin:0;min-height:0;height:297mm;overflow:hidden}}
+a{color:inherit;text-decoration:none}
+
+.head{display:grid;grid-template-columns:1fr auto;gap:10mm;align-items:end;padding-bottom:6mm;border-bottom:1px solid var(--line)}
+h1{font-family:"Inter Tight";font-weight:500;letter-spacing:-.04em;font-size:31pt;line-height:.95}
+.role{margin-top:4mm;font-size:12.5pt;color:var(--ink-2)}
+.meta{display:flex;flex-wrap:wrap;gap:1.6mm;margin-top:3.5mm}
+.tag{font-size:7.6pt;padding:1.4mm 2.6mm;border:1px solid var(--line);border-radius:99px;color:var(--ink-2);background:rgba(255,255,255,.4)}
+.contacts{display:grid;gap:1.6mm;font-size:8.6pt;justify-items:end}
+.contacts a{display:flex;gap:2.5mm;align-items:center;padding:1.8mm 3mm;border-radius:2.5mm;border:1px solid var(--line);background:rgba(255,255,255,.5);white-space:nowrap}
+.contacts small{color:var(--ink-3);font-size:6.6pt;text-transform:uppercase;letter-spacing:.14em;width:17mm}
+
+.sec{display:grid;grid-template-columns:30mm 1fr;gap:6mm;padding:3.6mm 0;border-bottom:1px solid var(--line)}
+.sec:last-of-type{border-bottom:0}
+.sec h2{font-family:"Inter Tight";font-weight:500;font-size:7.2pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);padding-top:1mm}
+.sec p{font-size:9.2pt;line-height:1.45;color:var(--ink-2)}
+
+.job{display:grid;grid-template-columns:27mm 1fr;gap:4mm;padding:2.8mm 0;border-top:1px dashed var(--line)}
+.job:first-child{border-top:0;padding-top:0}
+.job time{font-size:8pt;color:var(--ink-3);padding-top:.8mm;line-height:1.35}
+.job h3{font-family:"Inter Tight";font-weight:500;font-size:11.5pt;letter-spacing:-.02em}
+.job .co{font-size:8.4pt;color:var(--ink-3);margin:.8mm 0 2mm}
+.job ul{list-style:none;display:grid;gap:1mm}
+.job li{font-size:8.8pt;line-height:1.38;color:var(--ink-2);padding-left:4mm;position:relative}
+.job li::before{content:"";position:absolute;left:0;top:.52em;width:1.6mm;height:1.6mm;border-radius:50%;background:var(--accent)}
+
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+.skills{display:flex;flex-wrap:wrap;gap:1.6mm}
+.skills .tag{font-size:8pt;padding:1.6mm 3mm}
+.kv{display:grid;gap:1.2mm}
+.kv div{display:flex;justify-content:space-between;gap:4mm;font-size:8.9pt;padding:1.4mm 0;border-bottom:1px dashed var(--line)}
+.kv div:last-child{border-bottom:0}
+.kv.row{grid-template-columns:1fr 1fr 1.4fr;gap:4mm}
+.kv.row div{border-bottom:0;border-right:1px dashed var(--line);padding-right:4mm}
+.kv.row div:last-child{border-right:0}
+.kv span{color:var(--ink-3);text-align:right}
+.tools{font-size:8.9pt;line-height:1.5;color:var(--ink-2)}
+.want{font-size:9.4pt;line-height:1.5;color:var(--ink-2)}
+.foot{position:absolute;left:15mm;right:15mm;bottom:8mm;display:flex;justify-content:space-between;font-size:7pt;color:var(--ink-3);letter-spacing:.06em}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="head">
+    <div>
+      <h1 data-i18n="name">Maksym<br>Kavetskyi</h1>
+      <div class="role" data-i18n="role">Middle Affiliate Manager · iGaming</div>
+      <div class="meta">
+        <span class="tag" data-i18n="tag.vert">Casino & Betting</span>
+        <span class="tag">LATAM</span>
+        <span class="tag">CPA · RevShare · Hybrid · Fix</span>
+        <span class="tag" data-i18n="tag.remote">Remote</span>
+      </div>
+    </div>
+    <div class="contacts">
+      <a href="mailto:max.kavetsky2k@gmail.com"><small>Email</small> max.kavetsky2k@gmail.com</a>
+      <a href="https://t.me/not_quotedddd"><small>Telegram</small> @not_quotedddd</a>
+      <a href="https://www.linkedin.com/in/maksym-kavetskyi-579306410/"><small>LinkedIn</small> linkedin.com/in/maksym-kavetskyi</a>
+      <a href="#"><small data-i18n="c.loc">Location</small> <span data-i18n="c.locv">Vietnam · remote</span></a>
+    </div>
+  </header>
+
+  <section class="sec">
+    <h2 data-i18n="h.sum">Summary</h2>
+    <p data-i18n="sum">Affiliate manager in casino and betting, about a year in iGaming. Ran the partner side of a new LATAM GEO on my own: finding and onboarding partners, negotiating terms, watching traffic quality, reporting. Looking for a full-time remote role, casino or betting, any GEO. I pick up new topics and GEOs fast, work on my own and automate part of the routine with AI.</p>
+  </section>
+
+  <section class="sec">
+    <h2 data-i18n="h.exp">Experience</h2>
+    <div>
+      <article class="job">
+        <time data-i18n="j1.time">6 months</time>
+        <div>
+          <h3 data-i18n="j1.title">Junior → Middle Affiliate Manager</h3>
+          <div class="co" data-i18n="j1.co">iGaming operator, casino & betting (under NDA) · Remote · Full-time</div>
+          <ul data-i18n="j1.list">
+            <li>Joined at the start of a new LATAM GEO and have run the partner side in the company on my own since then</li>
+            <li>Built the partner base from zero across several traffic sources</li>
+            <li>Negotiate terms and run deals on CPA, RevShare, Hybrid and Fix</li>
+            <li>Test every new traffic source first, then scale it. Weak traffic gets stopped or moved to other terms</li>
+            <li>Partner traffic volume grew month over month</li>
+            <li>Daily and weekly reports for the team, promo materials for partners</li>
+          </ul>
+        </div>
+      </article>
+      <article class="job">
+        <time data-i18n="j2.time">6 months</time>
+        <div>
+          <h3 data-i18n="j2.title">Junior Affiliate Manager</h3>
+          <div class="co" data-i18n="j2.co">iGaming affiliate team (under NDA) · Remote · Full-time</div>
+          <ul data-i18n="j2.list">
+            <li>Found partners myself, negotiated terms and onboarded them</li>
+            <li>LATAM partner programs, daily communication with affiliates</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2 data-i18n="h.skills">Skills</h2>
+    <div class="skills" data-i18n="skills">
+      <span class="tag">Affiliate recruitment</span><span class="tag">Partner onboarding</span><span class="tag">Deal negotiation</span>
+      <span class="tag">CPA · RevShare · Hybrid · Fix</span><span class="tag">Traffic quality control</span><span class="tag">Streamer & influencer partnerships</span>
+      <span class="tag">Telegram & Instagram sourcing</span><span class="tag">Reporting</span><span class="tag">Partner communication</span><span class="tag">AI automation</span>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2 data-i18n="h.tools">Tools</h2>
+    <p class="tools" data-i18n="tools">Asana, Notion, Google Sheets, CRM systems, affiliate program back offices, reporting spreadsheets, ChatGPT, Claude. Built my own Telegram-based CRM for partner search.</p>
+  </section>
+
+  <section class="sec">
+    <h2 data-i18n="h.langs">Languages</h2>
+    <div class="kv row" data-i18n="langs">
+      <div>Ukrainian <span>Native</span></div>
+      <div>Russian <span>Native</span></div>
+      <div>English <span>B1</span></div>
+    </div>
+  </section>
+
+  <div class="foot"><span>Maksym Kavetskyi · CV · 2026</span><span data-i18n="foot">Brand names and figures are under NDA</span></div>
+</div>
+
+<script>
+const I18N = {
+en:{},
+ru:{
+  'name':'Максим<br>Кавецкий','role':'Middle Affiliate Manager · iGaming',
+  'tag.vert':'Казино и беттинг','tag.remote':'Удалённо','c.loc':'Локация','c.locv':'Вьетнам · удалённо',
+  'h.sum':'Кратко','sum':'Аффилейт-менеджер в казино и беттинге, в iGaming около года. Один вёл партнёрское направление на новом GEO в LATAM: искал и подключал партнёров, договаривался об условиях, следил за качеством трафика, готовил отчёты. Ищу full-time удалённую работу, казино или беттинг, GEO любое. Быстро вхожу в новые темы и GEO, работаю самостоятельно, часть рутины автоматизирую с ИИ.',
+  'h.exp':'Опыт','j1.time':'6 месяцев','j1.title':'Junior → Middle Affiliate Manager','j1.co':'iGaming оператор, казино и беттинг (NDA) · Удалённо · Full-time',
+  'j1.list':'<li>Пришёл на старте нового GEO в LATAM и с тех пор один отвечал за партнёрское направление в компании</li><li>Собрал партнёрскую базу с нуля из разных источников трафика</li><li>Договаривался об условиях и вёл сделки по CPA, RevShare, Hybrid и Fix</li><li>Каждый новый источник трафика сначала тестировал, потом масштабировал. Слабый трафик останавливал или переводил на другие условия</li><li>Объём трафика от партнёров рос от месяца к месяцу</li><li>Ежедневные и еженедельные отчёты команде, промо-материалы для партнёров</li>',
+  'j2.time':'6 месяцев','j2.title':'Junior Affiliate Manager','j2.co':'iGaming аффилейт-команда (NDA) · Удалённо · Full-time',
+  'j2.list':'<li>Сам искал партнёров, договаривался об условиях и подключал</li><li>Партнёрские программы LATAM, ежедневная переписка с аффилейтами</li>',
+  'h.skills':'Навыки','skills':'<span class="tag">Поиск партнёров</span><span class="tag">Онбординг партнёров</span><span class="tag">Переговоры по условиям</span><span class="tag">CPA · RevShare · Hybrid · Fix</span><span class="tag">Контроль качества трафика</span><span class="tag">Стримеры и инфлюенсеры</span><span class="tag">Сорсинг в Telegram и Instagram</span><span class="tag">Отчётность</span><span class="tag">Коммуникация с партнёрами</span><span class="tag">Автоматизация с ИИ</span>',
+  'h.tools':'Инструменты','tools':'Asana, Notion, Google Sheets, CRM-системы, админки партнёрок, таблицы отчётов, ChatGPT, Claude. Собрал себе CRM на базе Telegram для поиска партнёров.',
+  'h.langs':'Языки','langs':'<div>Украинский <span>Родной</span></div><div>Русский <span>Родной</span></div><div>Английский <span>B1</span></div>',
+  'h.want':'Ищу','want':'Full-time удалённую позицию Affiliate Manager. Казино и беттинг, любое GEO: новые рынки это самый быстрый способ расти.',
+  'foot':'Названия брендов и цифры под NDA'
+},
+uk:{
+  'name':'Максим<br>Кавецький','role':'Middle Affiliate Manager · iGaming',
+  'tag.vert':'Казино та беттінг','tag.remote':'Віддалено','c.loc':'Локація','c.locv':"В'єтнам · віддалено",
+  'h.sum':'Коротко','sum':'Афілейт-менеджер у казино та беттінгу, в iGaming близько року. Сам вів партнерський напрям на новому GEO в LATAM: шукав і підключав партнерів, домовлявся про умови, стежив за якістю трафіку, готував звіти. Шукаю full-time віддалену роботу, казино або беттінг, GEO будь-яке. Швидко входжу в нові теми та GEO, працюю самостійно, частину рутини автоматизую з ШІ.',
+  'h.exp':'Досвід','j1.time':'6 місяців','j1.title':'Junior → Middle Affiliate Manager','j1.co':'iGaming оператор, казино та беттінг (NDA) · Віддалено · Full-time',
+  'j1.list':'<li>Прийшов на старті нового GEO в LATAM і відтоді сам відповідав за партнерський напрям у компанії</li><li>Зібрав партнерську базу з нуля з різних джерел трафіку</li><li>Домовлявся про умови та вів угоди за CPA, RevShare, Hybrid і Fix</li><li>Кожне нове джерело трафіку спочатку тестував, потім масштабував. Слабкий трафік зупиняв або переводив на інші умови</li><li>Обсяг трафіку від партнерів зростав від місяця до місяця</li><li>Щоденні та щотижневі звіти команді, промо-матеріали для партнерів</li>',
+  'j2.time':'6 місяців','j2.title':'Junior Affiliate Manager','j2.co':'iGaming афілейт-команда (NDA) · Віддалено · Full-time',
+  'j2.list':'<li>Сам шукав партнерів, домовлявся про умови та підключав</li><li>Партнерські програми LATAM, щоденне листування з афілейтами</li>',
+  'h.skills':'Навички','skills':'<span class="tag">Пошук партнерів</span><span class="tag">Онбординг партнерів</span><span class="tag">Переговори щодо умов</span><span class="tag">CPA · RevShare · Hybrid · Fix</span><span class="tag">Контроль якості трафіку</span><span class="tag">Стримери та інфлюенсери</span><span class="tag">Сорсинг у Telegram та Instagram</span><span class="tag">Звітність</span><span class="tag">Комунікація з партнерами</span><span class="tag">Автоматизація з ШІ</span>',
+  'h.tools':'Інструменти','tools':'Asana, Notion, Google Sheets, CRM-системи, адмінки партнерок, таблиці звітів, ChatGPT, Claude. Зібрав собі CRM на базі Telegram для пошуку партнерів.',
+  'h.langs':'Мови','langs':'<div>Українська <span>Рідна</span></div><div>Російська <span>Рідна</span></div><div>Англійська <span>B1</span></div>',
+  'h.want':'Шукаю','want':'Full-time віддалену позицію Affiliate Manager. Казино та беттінг, будь-яке GEO: нові ринки це найшвидший спосіб рости.',
+  'foot':'Назви брендів і цифри під NDA'
+}};
+const l = new URLSearchParams(location.search).get('lang') || 'en';
+const d = I18N[l] || {};
+document.querySelectorAll('[data-i18n]').forEach(el => { const k = el.dataset.i18n; if (k in d) el.innerHTML = d[k]; });
+document.documentElement.lang = l;
+</script>
+</body>
+</html>
