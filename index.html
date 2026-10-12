@@ -52,8 +52,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 }
 
 /* ---------- zoom section ---------- */
-.zoom{height:300vh;position:relative;z-index:2}
-.sticky{position:sticky;top:0;height:100vh;overflow:hidden;background:#000}
+.zoom{height:300vh;position:relative;z-index:2;pointer-events:none}
+.sticky{position:sticky;top:0;height:100vh;overflow:hidden;background:#000;pointer-events:auto}
 .sticky.done{background:transparent;pointer-events:none}
 .sticky.done .stage,.sticky.done .grain{visibility:hidden}
 .stage{position:absolute;inset:0;will-change:transform;transform-origin:50% 50%}
@@ -233,10 +233,10 @@ section.block h2{font-family:"Inter Tight";font-weight:500;font-size:14px;letter
     </header>
 
     <div class="stats">
-      <div class="stat"><b data-i18n="stat.geoN">0 → 1</b><span data-i18n="stat.geo">new LATAM GEO launched from scratch</span></div>
-      <div class="stat"><b data-i18n="stat.soloN">Solo</b><span data-i18n="stat.solo">ran the partner side of the GEO on my own</span></div>
-      <div class="stat"><b data-i18n="stat.momN">MoM</b><span data-i18n="stat.mom">partner traffic growth every month since launch</span></div>
-      <div class="stat"><b>4</b><span data-i18n="stat.deals">deal models: CPA, RevShare, Hybrid, fixed fee</span></div>
+      <div class="stat"><b data-i18n="stat.yrN">1 yr</b><span data-i18n="stat.yr">in iGaming: casino and betting</span></div>
+      <div class="stat"><b data-i18n="stat.geoN">0 → 1</b><span data-i18n="stat.geo">new LATAM GEO, partner base built from scratch</span></div>
+      <div class="stat"><b>4</b><span data-i18n="stat.deals">deal models: CPA, RevShare, Hybrid, Fix</span></div>
+      <div class="stat"><b>3</b><span data-i18n="stat.langs">languages: Ukrainian, Russian, English B1</span></div>
     </div>
 
     <section class="block">
@@ -311,10 +311,10 @@ en: {
   'hero.open':'Open CV','hero.pdf':'Download PDF','hero.scroll':'scroll',
   'cv.name':'Maksym<br>Kavetskyi','cv.role':'Middle Affiliate Manager · iGaming',
   'tag.vert':'Casino & Betting','tag.remote':'Remote','tag.ft':'Full-time',
-  'stat.geoN':'0 → 1','stat.geo':'new LATAM GEO launched from scratch',
-  'stat.soloN':'Solo','stat.solo':'ran the partner side of the GEO on my own',
-  'stat.momN':'MoM','stat.mom':'partner traffic growth every month since launch',
-  'stat.deals':'deal models: CPA, RevShare, Hybrid, fixed fee',
+  'stat.yrN':'1 yr','stat.yr':'in iGaming: casino and betting',
+  'stat.geoN':'0 → 1','stat.geo':'new LATAM GEO, partner base built from scratch',
+  'stat.deals':'deal models: CPA, RevShare, Hybrid, Fix',
+  'stat.langs':'languages: Ukrainian, Russian, English B1',
   'h.about':'About','h.exp':'Experience','h.skills':'Skills','h.langs':'Languages',
   'about.text':'I run partner programs for casino and betting brands in LATAM. Partner search, launch on the right deal, traffic testing and reporting. Most affiliates send a test, get paid once and disappear. My job is to find the ones that stay and grow.',
   'job1.time':'6 months','job1.title':'Junior → Middle Affiliate Manager','job1.co':'iGaming brand (NDA) · Remote · Full-time',
@@ -331,10 +331,10 @@ ru: {
   'hero.open':'Открыть CV','hero.pdf':'Скачать PDF','hero.scroll':'листай',
   'cv.name':'Максим<br>Кавецкий','cv.role':'Middle Affiliate Manager · iGaming',
   'tag.vert':'Казино и беттинг','tag.remote':'Удалённо','tag.ft':'Full-time',
-  'stat.geoN':'0 → 1','stat.geo':'новое GEO в LATAM запущено с нуля',
-  'stat.soloN':'Один','stat.solo':'сам вёл партнёрское направление на GEO',
-  'stat.momN':'MoM','stat.mom':'рост партнёрского трафика каждый месяц с запуска',
-  'stat.deals':'модели сделок: CPA, RevShare, Hybrid, фикс',
+  'stat.yrN':'1 год','stat.yr':'в iGaming: казино и беттинг',
+  'stat.geoN':'0 → 1','stat.geo':'новое GEO в LATAM, партнёрская база с нуля',
+  'stat.deals':'модели сделок: CPA, RevShare, Hybrid, Fix',
+  'stat.langs':'языка: украинский, русский, английский B1',
   'h.about':'Обо мне','h.exp':'Опыт','h.skills':'Навыки','h.langs':'Языки',
   'about.text':'Веду партнёрские программы казино и беттинг брендов в LATAM: поиск партнёров, запуск на правильных условиях, тест трафика и отчётность. Большинство аффилейтов льют тест, получают одну выплату и пропадают. Моя работа: находить тех, кто остаётся и растёт.',
   'job1.time':'6 месяцев','job1.title':'Junior → Middle Affiliate Manager','job1.co':'iGaming бренд (NDA) · Удалённо · Full-time',
@@ -351,10 +351,10 @@ uk: {
   'hero.open':'Відкрити CV','hero.pdf':'Завантажити PDF','hero.scroll':'гортай',
   'cv.name':'Максим<br>Кавецький','cv.role':'Middle Affiliate Manager · iGaming',
   'tag.vert':'Казино та беттінг','tag.remote':'Віддалено','tag.ft':'Full-time',
-  'stat.geoN':'0 → 1','stat.geo':'нове GEO в LATAM запущено з нуля',
-  'stat.soloN':'Один','stat.solo':'сам вів партнерський напрям на GEO',
-  'stat.momN':'MoM','stat.mom':'зростання партнерського трафіку щомісяця з запуску',
-  'stat.deals':'моделі угод: CPA, RevShare, Hybrid, фікс',
+  'stat.yrN':'1 рік','stat.yr':'в iGaming: казино та беттінг',
+  'stat.geoN':'0 → 1','stat.geo':'нове GEO в LATAM, партнерська база з нуля',
+  'stat.deals':'моделі угод: CPA, RevShare, Hybrid, Fix',
+  'stat.langs':'мови: українська, російська, англійська B1',
   'h.about':'Про мене','h.exp':'Досвід','h.skills':'Навички','h.langs':'Мови',
   'about.text':'Веду партнерські програми казино та беттінг брендів у LATAM: пошук партнерів, запуск на правильних умовах, тест трафіку та звітність. Більшість афілейтів ллють тест, отримують одну виплату і зникають. Моя робота: знаходити тих, хто залишається і росте.',
   'job1.time':'6 місяців','job1.title':'Junior → Middle Affiliate Manager','job1.co':'iGaming бренд (NDA) · Віддалено · Full-time',
